@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+
+<project name="build-package" basedir="${basedir}" default="package">
+	<target name="package"
+		description="Build the distributable ZIP for SugarCRM Module Loader">
+		<buildnumber/>
+		<zip destfile="${basedir}/dist/JobXMLImporter_SchedulerJob_${version}-${build.number}.zip" 
+			basedir="${basedir}"
+			includes="jobs/**, scripts/**, *.php, *.txt"
+			excludes="build/**, xmlDataExample/**, dist/** **/build.xml">
+		</zip>
+	</target>
+</project>
