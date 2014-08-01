@@ -98,7 +98,7 @@ Fri Aug  1 00:48:03 2014 [2142][1][INFO] End: XmlImporterContactsJobs
 **Listing 4 - Job in action**
 
 ## Disclaimer
-The purpose of this teaching project. Usefull to show how to implement the use case that we discussed at the beginning.
+The purpose of the project is absolutely focused to teaching. Usefull to show how to implement the use case that we discussed at the beginning.
   
  
 
