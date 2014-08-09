@@ -25,7 +25,7 @@ if (! defined('sugarEntry') || ! sugarEntry) die('Not A Valid Entry Point');
 global $db;
 
 $jobname = 'Job to import XML data into SugarCRM Data Base';
-$jobfunction = 'function::XmlImporterContactsJobs';
+$jobfunction = 'function::XmlImporterJobs';
 $removeJob = "UPDATE schedulers SET DELETED = 1 WHERE name = '$jobname' AND job = '$jobfunction'";
 
 $db->query($removeJob);

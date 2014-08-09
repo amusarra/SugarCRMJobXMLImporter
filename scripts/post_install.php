@@ -29,7 +29,7 @@ function post_install() {
 	 */
 	$job = BeanFactory::getBean('Schedulers');
 	$job->name = 'Job to import XML data into SugarCRM Data Base';
-	$job->job = 'function::XmlImporterContactsJobs';
+	$job->job = 'function::XmlImporterJobs';
 	$job->date_time_start = '2014-01-01 00:00:00';
 	$job->job_interval = '*::*::*::*::*';
 	$job->status = 'Active';

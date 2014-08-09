@@ -54,20 +54,20 @@ $installdefs = array(
 		'language' => array (
 				0 =>
 				array (
-						'from' => '<basepath>/jobs/language/en_us.xmlImporterContactsJobs.php',
+						'from' => '<basepath>/jobs/language/en_us.xmlImporterJobs.php',
 						'to_module' => 'Schedulers',
 						'language' => 'en_us',
 				),
 				1 =>
 				array (
-						'from' => '<basepath>/jobs/language/it_it.xmlImporterContactsJobs.php',
+						'from' => '<basepath>/jobs/language/it_it.xmlImporterJobs.php',
 						'to_module' => 'Schedulers',
 						'language' => 'it_it',
 				),
 		),
 		'scheduledefs' => array (
 				array(
-						'from' => '<basepath>/jobs/XMLImporterContactsTask.php'
+						'from' => '<basepath>/jobs/XMLImporterTask.php'
 				),
 		),
 );
