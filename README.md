@@ -76,7 +76,7 @@ The job performs the following process:
 3. Begin to process one at a time XML streams
 4. Start reading the accounts from the XML stream. If the account exists on SugarCRM then updates the data (XML to DB) otherwise create a new account with the data from the XML file.
 
-The [XMLImporterContactsTask.php](https://github.com/amusarra/SugarCRMJobXMLImporter/blob/master/jobs/XMLImporterContactsTask.php) file contains the logic just described.
+The [XMLImporterTask.php](https://github.com/amusarra/SugarCRMJobXMLImporter/blob/master/jobs/XMLImporterTask.php) file contains the logic just described.
 
 
 ```
