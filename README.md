@@ -6,12 +6,14 @@ This repository contains a complete example of a Schedule Job. This job performs
 
 *This project are tested on SugarCRM CE 6.5 and SugarCRM Ent 7.2*
 
+**You can find the complete guide (but in Italian) on my account SlideShare [SugarCRM: Come realizzare un Custom Scheduler. Un esempio completo](http://www.slideshare.net/amusarra/sugarcrm-come-realizzare-un-custom-scheduler-un-esempio-completo)**
+
 ## 2. Use Case
 A typical use case where the Scheduler SugarCRM might help is shown in the diagram of Figure 1.
 
 ![Smaller icon](http://www.dontesta.it/blog/wp-content/uploads/2014/08/SugarCRMSchedulers_1.png "Example Use Case")
 
-**Figure 1 - Clone project and build process**
+**Figure 1 - Integration diagram of the example use case**
 
 There exists a requirement such that it is necessary that an external system to SugarCRM (such as a billing system) must be updated (for example once a day) the data of the accounts. The external system sends the data to be updated or inserted via an XML data stream (whose scheme is shared between the two systems), this data stream will subsequently be drawn from SugarCRM. The XML stream will be made available in SugarCRM on a shared directory (via NFS for example).
 
